@@ -540,7 +540,7 @@ export const transversalSkills: SkillCategory[] = [
         }
       },
       {
-        name: { it: 'Attenzione Meticolosa ai Dettagli', en: 'Meticulous Attention to Detail' },
+        name: { it: 'Precisione Documentale & Revisione', en: 'Documentary Precision & Review' },
         description: {
           it: 'Cura rigorosa nella redazione di documenti ufficiali, contrattualistica, note informative e dossier di ricerca.',
           en: 'Meticulous precision in reviewing official documentation, contractual terms, informative briefings, and research dossiers.'

@@ -107,11 +107,6 @@ const { isItalian, t, tArray } = useLanguage()
                 {{ t(area.description) }}
               </p>
             </div>
-
-            <div class="pt-4 mt-4 border-t border-editorial-border/60 flex items-center justify-between text-2xs text-charcoal-faint">
-              <span>Competenza Certificata</span>
-              <span class="text-editorial-terracotta">✦</span>
-            </div>
           </div>
         </div>
       </div>

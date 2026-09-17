@@ -86,7 +86,7 @@ function scrollToTop() {
         </p>
         
         <p class="italic font-serif">
-          {{ isItalian ? 'Curato con rigore editoriale e fedeltà al documento ufficiale.' : 'Artfully crafted with editorial rigor and CV fidelity.' }}
+          {{ isItalian ? 'Dossier accademico redatto su fonti documentali e percorsi formativi certificati.' : 'Academic dossier compiled from verified curriculum records and official credentials.' }}
         </p>
       </div>
 

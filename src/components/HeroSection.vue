@@ -11,7 +11,6 @@ const { isItalian, t } = useLanguage()
     <!-- Subtle architectural background accents -->
     <div class="absolute inset-0 pointer-events-none opacity-40">
       <div class="absolute top-0 right-1/4 w-px h-full bg-gradient-to-b from-transparent via-editorial-border to-transparent"></div>
-      <div class="absolute top-1/3 left-10 w-48 h-48 rounded-full bg-editorial-sand/30 blur-3xl"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 relative">
