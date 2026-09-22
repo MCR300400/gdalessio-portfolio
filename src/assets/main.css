@@ -8,13 +8,13 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #FAF8F5;
-    color: #1A1918;
+    background-color: #F8F9FA;
+    color: #0F172A;
   }
 
   ::selection {
-    background-color: #ECE8E1;
-    color: #1A1918;
+    background-color: #DBEAFE;
+    color: #1E3A8A;
   }
 
   /* Refined scrollbar */
@@ -23,14 +23,14 @@
     height: 6px;
   }
   ::-webkit-scrollbar-track {
-    background: #FAF8F5;
+    background: #F8F9FA;
   }
   ::-webkit-scrollbar-thumb {
-    background: #D8D2C7;
+    background: #CBD5E1;
     border-radius: 3px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #B8B0A2;
+    background: #94A3B8;
   }
 }
 
@@ -79,14 +79,14 @@
   /* Clean editorial card without SaaS boxiness */
   .editorial-card {
     background-color: #FFFFFF;
-    border: 1px solid #E6E1DA;
-    border-radius: 4px;
-    box-shadow: 0 2px 12px -2px rgba(26, 25, 24, 0.03);
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px -2px rgba(15, 23, 42, 0.03);
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
   }
   .editorial-card:hover {
-    border-color: #CEC6BB;
-    box-shadow: 0 8px 24px -4px rgba(26, 25, 24, 0.06);
+    border-color: #94A3B8;
+    box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.06);
   }
 
   /* Subtle pill/tag */
@@ -94,20 +94,18 @@
     display: inline-flex;
     align-items: center;
     padding: 0.25rem 0.625rem;
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    border-radius: 2px;
-    background-color: #F5F3EF;
-    color: #5C5853;
-    border: 1px solid #E6E1DA;
+    border-radius: 4px;
+    background-color: #F1F5F9;
+    color: #475569;
+    border: 1px solid #E2E8F0;
   }
 
-  /* Minimalist horizontal divider with optional central mark */
+  /* Minimalist horizontal divider */
   .editorial-divider {
     height: 1px;
-    background-color: #E6E1DA;
+    background-color: #E2E8F0;
     width: 100%;
   }
 }
